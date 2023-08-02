@@ -85,3 +85,10 @@ input {
 .survey-card button:hover {
   background-color: #45a049;
 }
+.survey-card label.radio-label {
+  display: inline-flex;
+  align-items: center;
+}
+.survey-card input[type='radio'] {
+  margin-right: 5px;
+}

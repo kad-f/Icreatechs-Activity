@@ -35,11 +35,25 @@
       <h2>Survey</h2>
       <p>Which programming language do you use the most?</p>
       <form>
-        <label for="username">Username:</label><br />
+        <label for="name">Name:</label><br />
         <input type="text" id="username" name="username" required /><br />
-        <label for="password">Password:</label><br />
+        <label for="password">Age:</label><br />
         <input type="password" id="password" name="password" required /><br />
         <br />
+        <div class="radio-container">
+          <label for="gender">Gender</label><br>
+          <label class="radio-label">
+            <input type="radio" name="gender" value="male" />
+            Male
+          </label>
+        </div>
+        <div class="radio-container">
+          <label class="radio-label">
+            <input type="radio" name="gender" value="female" />
+            Female
+          </label>
+        </div>
+
         <label for="language">Select a language:</label>
         <select id="language" name="language">
           <option value="javascript">JavaScript</option>
