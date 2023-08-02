@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.card {
+  width: 300px;
+  height: 5;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+input {
+  height: 25px;
+  width: 96%;
+}
+.contact-card {
+  background-color: #98fb98;
+}
+.contact-card button {
+  margin-top: 10px;
+  align-self: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#mname {
+  width: 96%;
+  height: 100px;
+}
+.login-card {
+  background-color: #98fb98;
+}
+.login-card button {
+  margin-top: 10px;
+  align-self: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.login-card button:hover {
+  background-color: #45a049;
+}
+.survey-card {
+  background-color: #98fb98;
+}
+
+.survey-card label {
+  margin-bottom: 5px;
+}
+.survey-card select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.survey-card button {
+  align-self: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.survey-card button:hover {
+  background-color: #45a049;
+}
